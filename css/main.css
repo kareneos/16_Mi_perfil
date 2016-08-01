@@ -1,0 +1,52 @@
+section *, footer *{
+	padding: 2%;
+}
+body{
+	font-family: 'Oswald', sans-serif;
+	margin-top: 2%;
+	}
+/*HEADER*/
+a{
+	text-decoration: none;
+}
+li{
+	display: inline;
+	color: black;
+	padding: 3%;
+}
+/*PRIMERA SECCION*/
+#nombre{
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#nombre *{
+	color: white;
+}
+#nombre img{
+	width: 10%;
+}
+/*SEGUNDA Y TERCERA SECCION*/
+#aboutme{
+	background-image: url("../images/tile1.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#aboutme img, #favouritethings img{
+	border: 1px solid #A8258D;
+	width: 100%
+}
+h2, h3{
+	color: #A8258D;
+}
+#favouritethings img{
+	border-radius: 50%;
+	-webkit-filter: saturate(7); 
+	filter: saturate(7);
+}
+/*FOOTER*/
+footer{
+	background-image: url("../images/tile2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
